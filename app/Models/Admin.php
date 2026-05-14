@@ -18,6 +18,8 @@ class Admin extends Authenticatable
         'apellidos_admi',
         'rol',
         'foto',
+        'intentos_fallidos',
+        'ultimo_intento',
     ];
 
     protected $hidden = [
